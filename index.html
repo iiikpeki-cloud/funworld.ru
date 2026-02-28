@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FunWorld.PW — Магазин привилегий</title>
+    <title>FunWorld — Магазин привилегий</title>
     <style>
         * {
             margin: 0;
@@ -571,7 +571,7 @@
     <div class="container">
         <!-- Верхняя панель -->
         <div class="top-bar">
-            <div class="logo">FUNWORLD.PW</div>
+            <div class="logo">FUNWORLD</div>
         </div>
 
         <div class="content">
@@ -594,7 +594,7 @@
                     🌐 funworld.gamepvp.ru
                 </div>
                 <div class="online">
-                    🔥 156 ONLINE
+                    🔥 nan ONLINE
                 </div>
                 <div class="admin-btn" onclick="openModal()">
                     🔐 АДМИН
@@ -787,7 +787,7 @@
 
             <!-- Реквизиты -->
             <div class="card-section">
-                <h2 style="color: #ffd966; margin-bottom: 20px;">💳 РЕКВИЗИТЫ</h2>
+                <h2 style="color: #ffd966; margin-bottom: 20px;">💳 Карта</h2>
                 <div class="card-number" onclick="copyCard()">
                     2202 2088 3123 4860
                 </div>
@@ -822,7 +822,7 @@
 
             <!-- Футер -->
             <div class="footer">
-                👑 Создатель: <strong>BAZED</strong> | 💻 Сайт: <strong>LOL4IK</strong><br>
+                👑 Создатель: <strong>BAZED</strong> | 💻 прогграмист: <strong>LOL4IK</strong><br>
                 <span style="color: #00ff9d;">С уважением, команда L</span>
             </div>
         </div>
@@ -892,7 +892,7 @@
 
         function copyIP() {
             navigator.clipboard.writeText('funworld.gamepvp.ru');
-            showNotification('✅ IP скопирован');
+            showNotification('✅ IP сервера скопирован');
         }
 
         // Админка
@@ -910,7 +910,7 @@
             if (password === 'funworlda42yydd1sd') {
                 closeModal();
                 document.getElementById('adminPanel').classList.add('visible');
-                showNotification('✅ Добро пожаловать, BAZED');
+                showNotification('✅ Добро пожаловать, Admin');
             } else {
                 showNotification('❌ Неверный пароль');
             }
